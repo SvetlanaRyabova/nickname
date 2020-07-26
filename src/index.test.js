@@ -2,8 +2,6 @@ import Validator from './index.js';
 
 test('instance of class', () => {
   const expected = { name: 'name' };
-  console.log(expected);
-  console.log(new Validator('name'));
   expect(new Validator('name')).toEqual(expected);
 });
 
